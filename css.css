@@ -1,0 +1,17 @@
+article {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  width: 50vw;
+  background-color: aqua;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  border-radius: 23px;
+  background: #ffffff;
+  box-shadow: 22px 22px 44px #d9d9d9, -22px -22px 44px #ffffff;
+}
