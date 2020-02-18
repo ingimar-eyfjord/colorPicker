@@ -48,17 +48,15 @@ const getColorValues = function() {
 };
 
 function displayValues(hex, RGB, HSL) {
-  console.log(hex, RGB);
   document.querySelector("body").style.backgroundColor = hex;
-  document.querySelector(".HEX").innerHTML = `HEX: ` + hex.toUpperCase() + ``;
-  document.querySelector(".RGB").innerHTML =
+  document.querySelector(".HEX").textContent = `HEX: ` + hex.toUpperCase() + ``;
+  document.querySelector(".RGB").textContent =
     `RGB: ` + RGB.toUpperCase().substring(1, 14) + ``;
-  document.querySelector(".HSL").innerHTML = HSL;
+  document.querySelector(".HSL").textContent = HSL;
   document.querySelector("article").style.background = hex;
   document.querySelector("article").style.boxShadow =
     `22px 22px 44px #` + hex + `, -22px -22px 44px #` + hex + ``;
 }
-
 document
   .getElementById("color")
   .addEventListener("input", (e = getColorValues));
