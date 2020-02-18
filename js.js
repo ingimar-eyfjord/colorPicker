@@ -60,3 +60,29 @@ function displayValues(hex, RGB, HSL) {
 document
   .getElementById("color")
   .addEventListener("input", (e = getColorValues));
+
+//!!!!!!!!!!!!!!!
+// function getColorString() {
+//   return Math.floor(Math.random() * 255);
+// }
+
+// function randomColor() {
+//   let R = getColorString();
+//   let G = getColorString();
+//   let B = getColorString();
+//   return `rgb(${R}, ${G}, ${B})`;
+// }
+// setcolour();
+
+// function setcolour() {
+//   RGB = randomColor("");
+//   document.querySelector("body").style.backgroundColor = RGB;
+// }
+
+// function hex2rgb(hex) {
+//   let rAsInRGB = parseInt(hex.substring(1, 3), 16);
+//   let gAsInRGB = parseInt(hex.substring(3, 5), 16);
+//   let bAsInRGB = parseInt(hex.substring(5, 7), 16);
+//   return { rAsInRGB, gAsInRGB, bAsInRGB };
+// }
+// console.log(hex2rgb("#FFFFFF"));

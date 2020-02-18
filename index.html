@@ -6,15 +6,50 @@
     <title>Colorpicker</title>
     <link rel="stylesheet" href="css.css" />
   </head>
-  <body>
-    <article>
-      <h1>Click on the colour picker to choose a colour</h1>
-      <input id="color" type="color" />
-      <h2 class="RGB"></h2>
-      <h2 class="HEX"></h2>
-      <h2 class="HSL"></h2>
-    </article>
 
+  <body>
+    <input id="color" type="color" />
+    <div class="choices">
+      <input type="radio" id="choice1" name="choice" value="Analogous" />
+      <label for="choice1">Analogous</label>
+      <input type="radio" id="choice2" name="choice" value="Monochromatic" />
+      <label for="choice2">Monochromatic</label>
+      <input type="radio" id="choice3" name="choice" value="Triad" />
+      <label for="choice3">Triad</label>
+      <input type="radio" id="choice4" name="choice" value="Complementary" />
+      <label for="choice4">Complementary</label>
+      <input type="radio" id="choice5" name="choice" value="Compound" />
+      <label for="choice5">Mail</label>
+      <input type="radio" id="choice6" name="choice" value="Shades" />
+      <label for="choice6">Shades</label>
+    </div>
+    <div class="boxes">
+      <article id="box1">
+        <h2 class="RGB"></h2>
+        <h2 class="HEX"></h2>
+        <h2 class="HSL"></h2>
+      </article>
+      <article id="box2">
+        <h2 class="RGB"></h2>
+        <h2 class="HEX"></h2>
+        <h2 class="HSL"></h2>
+      </article>
+      <article id="box3">
+        <h2 class="RGB"></h2>
+        <h2 class="HEX"></h2>
+        <h2 class="HSL"></h2>
+      </article>
+      <article id="box4">
+        <h2 class="RGB"></h2>
+        <h2 class="HEX"></h2>
+        <h2 class="HSL"></h2>
+      </article>
+      <article id="box5">
+        <h2 class="RGB"></h2>
+        <h2 class="HEX"></h2>
+        <h2 class="HSL"></h2>
+      </article>
+    </div>
     <script src="js.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-article {
+/* article {
   position: absolute;
   display: flex;
   text-align: center;
@@ -14,4 +14,45 @@ article {
   border-radius: 23px;
   background: #ffffff;
   box-shadow: 22px 22px 44px #d9d9d9, -22px -22px 44px #ffffff;
+} */
+.boxes {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  width: 80vw;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+#box1,
+#box2,
+#box3,
+#box4,
+#box5 {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 15vw;
+  background: #ffffff;
+}
+.choices {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  width: 10vw;
+  height: 30;
+  top: 50vh;
+  padding: 5vh;
+  transform: translateY(-50%);
+}
+label {
+  margin-bottom: 2vh;
 }
